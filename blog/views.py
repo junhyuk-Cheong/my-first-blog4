@@ -11,6 +11,9 @@ def map(request):
 def index(request):
     return render(request, 'blog/index.html', {})
 
+def test(request):
+    return render(request, 'blog/jquery_ajax_1.html', {})
+
 
 
 
