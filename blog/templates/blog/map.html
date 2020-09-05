@@ -65,9 +65,8 @@
 <p><em>지도를 클릭해주세요!</em></p>
 <div id="clickLatlng"></div>
     
-<button onclick="seraching()">검색하기</button>
+<button onclick="seraching(), location.href = '{% url 'script' %}'">검색하기</button>
 <button onclick="reset()">출발, 도착지 다시설정하기</button>    
-    
 
 
 
