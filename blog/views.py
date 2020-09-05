@@ -1,5 +1,4 @@
 from django.shortcuts import render
-import requests
 import sys
 from .models import Post
 
