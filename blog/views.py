@@ -8,6 +8,8 @@ def post_list(request):
 def map(request):
     return render(request, 'blog/map.html', {})
 
+def index(request):
+    return render(request, 'blog/index.html', {})
 
 
 
